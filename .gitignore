@@ -1,0 +1,21 @@
+# General
+.DS_Store
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+dist/
+build/
+.npm/
+
+# Backend specific
+backend/.env
+backend/bookings.db
+backend/bookings.db-journal
+
+# Frontend specific
+frontend/.env
