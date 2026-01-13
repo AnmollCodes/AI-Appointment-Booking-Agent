@@ -1,3 +1,9 @@
+import React, { useState, useRef, useEffect, useMemo } from 'react'
+import { Canvas, useFrame } from '@react-three/fiber'
+import { Float, Stars, Sparkles, Octahedron, MeshDistortMaterial, Trail } from '@react-three/drei'
+import { motion, AnimatePresence } from 'framer-motion'
+import axios from 'axios'
+import { Send, Lock, Mic, ArrowUp, Zap, Clock, Calendar, CheckCircle2, Rocket } from 'lucide-react'
 import AdminDashboard from './AdminDashboard'
 
 // Use VITE_API_URL if set (Production), otherwise localhost (Development)
